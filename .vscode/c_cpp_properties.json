@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "defines": [
+                "ARDUINO=10800"
+            ],
+            "includePath": [
+                "/home/ttosi/Arduino/libraries/InputDebounce/src",
+                "/home/ttosi/.arduino15/packages/esp8266/tools/**",
+                "/home/ttosi/.arduino15/packages/esp8266/hardware/esp8266/2.5.0/**",
+                "/home/ttosi/Arduino/libraries/**",
+                "${workspaceRoot}",
+                "/home/ttosi/arduino-1.8.9/hardware/arduino/avr/cores/arduino/",
+                "/home/ttosi/arduino-1.8.9/hardware/arduino/avr/libraries/EEPROM/",
+                "/home/ttosi/arduino-1.8.9/hardware/arduino/avr/libraries/HID/",
+                "/home/ttosi/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/",
+                "/home/ttosi/arduino-1.8.9/hardware/arduino/avr/libraries/SoftwareSerial/",
+                "/home/ttosi/arduino-1.8.9/hardware/arduino/avr/libraries/Wire/",
+                "/home/ttosi/arduino-1.8.9/hardware/tools/avr/avr/include/",
+                "/home/ttosi/arduino-1.8.9/hardware/tools/avr/avr/include/avr/",
+                "/home/ttosi/arduino-1.8.9/hardware/tools/avr/avr/include/compat/",
+                "/home/ttosi/arduino-1.8.9/hardware/tools/avr/avr/include/util/",
+                "/home/ttosi/arduino-1.8.9/hardware/tools/avr/lib/gcc/avr/5.4.0/include/",
+                "/home/ttosi/arduino-1.8.9/hardware/tools/avr/lib/gcc/avr/5.4.0/include-fixed/"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "forcedInclude": [],
+            "intelliSenseMode": "gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compilerPath": "/usr/bin/gcc"
+        }
+    ],
+    "version": 4
+}
