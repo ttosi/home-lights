@@ -6,7 +6,6 @@
                 "ARDUINO=10800"
             ],
             "includePath": [
-                "/home/ttosi/Arduino/libraries/InputDebounce/src",
                 "/home/ttosi/.arduino15/packages/esp8266/tools/**",
                 "/home/ttosi/.arduino15/packages/esp8266/hardware/esp8266/2.5.0/**",
                 "/home/ttosi/Arduino/libraries/**",
