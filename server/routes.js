@@ -1,3 +1,5 @@
+const mqtt = require('./mqttClient');
+
 const router = function (app) {
     // endpoint to control ws2812b light strips at home
     // rest params
@@ -16,6 +18,17 @@ const router = function (app) {
         const brightness = req.query.brightness || 255;
 
         console.log(room, location, type, value, brightness);
+
+        let message = {
+            type: type,
+            value: value,
+            brightness: brightness
+        };
+
+        mqtt.publish('/home/livingroom/ceiling', JSON.stringify(message))
+            .then(() => {
+                console.log('successfully published to device');
+            });
 
         res.sendStatus(200);
     });
