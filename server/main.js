@@ -1,9 +1,10 @@
 const express = require('express');
 const routes = require('./routes');
 const mqtt = require('./mqttClient');
-
+const cors = require('cors');
 const app = express();
 
+app.use(cors());
 routes(app);
 
 const server = app.listen(process.env.PORT || 3000, () => {
